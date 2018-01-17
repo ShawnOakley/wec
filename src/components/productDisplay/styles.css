@@ -1,0 +1,136 @@
+.mainProductDisplay {
+  display:flex;
+  flex-direction:row;
+}
+
+.imagesDisplayContainer {
+  display:flex;
+  flex-direction: column;
+  flex:1;
+}
+
+.additionalInfoDisplayContainer {
+  text-align:left;
+  flex:1;
+}
+
+.smallImage {
+  cursor: pointer;
+  padding: 0.1rem;
+  margin: 0.3rem;
+  border: 0.15rem solid transparent;
+}
+
+.selectedSmallImage {
+  border: 0.15rem solid #313131;
+}
+
+.breadcrumbContainer {
+  text-align:left;
+  font-size: 0.75rem;
+  font-family: Roboto, sans-serif;
+  padding: 1rem 0;
+  font-weight: bold;
+  display:flex;
+}
+
+.breadcrumbPath {
+  opacity: 0.4
+}
+
+.breadcrumbDivider {
+  padding: 0 0.5rem;
+}
+
+.currentBreadcrumb {
+  opacity: 0.6;
+}
+
+.additionalInfoLabel {
+  font-size: 1.25rem;
+  padding: 0 0 1rem 0;
+}
+
+.additionalInfoDescription {
+  opacity: 0.7;
+  line-height: 1.35;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.additionalInfoListItem {
+  opacity: 0.7;
+  padding-bottom: 0.25rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.additionalInfoPrice {
+  font-size: 1.25rem;
+  padding-bottom: 0.75rem;
+  font-family: 'Arimo', sans-serif;
+}
+
+.additionalInfoItemCountInput {
+  width: 2.25rem;
+  height: 1.75rem;
+  text-align:center;
+  -moz-box-shadow:    inset 0 8px 6px -10px #000000;
+  -webkit-box-shadow: inset 0 8px 6px -10px #000000;
+  box-shadow:         inset 0 8px 6px -10px #000000;
+
+}
+
+.additionalInfoItemCartButtonContainer {
+  padding: 0.75rem 0;
+}
+
+.additionalInfoItemCartButton {
+  cursor:pointer;
+}
+
+.expandableMenuContainer > div {
+  border-bottom: 1px solid #d3d3d3;
+  padding: 0.75rem 0;
+}
+
+.expandableMenuContainer > div:last-child {
+  border-bottom: none;
+}
+
+.expandableMenuContainer {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.expandableMenuItemHeader {
+  cursor: pointer;
+}
+
+.expandableMenuItemText {
+  padding-left: 0.75rem;
+  padding-top: 0.75rem;
+  opacity: 0.7;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.expansionText {
+  padding-left: 0.25rem;
+  font-size: 1.1rem;
+}
+
+.cartNotification {
+  position: absolute;
+  background-color:darkGrey;
+  width: 100%;
+  height: 2rem;
+  color:white;
+  font-size: 1.25rem;
+  font-family: Roboto, sans-serif;
+  display:flex;
+  align-items:center;
+}
+
+.cartNotificationSpan {
+  display:flex;
+  width:100%;
+  flex-direction:column;
+}
