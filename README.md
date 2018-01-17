@@ -1,6 +1,6 @@
 ## WE test
 
-This challenge was implemented in React 16.2, with testing in Jest and Enzyme.  The site divides components into container and dependent presentational components, and the presentational components are purely functional.
+This challenge was implemented in React 16.2, with testing in Jest and Enzyme.  The app's architecture divides components into container and dependent presentational components, and the presentational components are purely functional.
 
 ### Steps to run
 
